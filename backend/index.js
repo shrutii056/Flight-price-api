@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(flightRouter);
 
 app.get("/", (_req, res) => {
-  res.send("<h1>Hello from Shrut</h1>");
+  res.send("<h1>Hello from Shruti</h1>");
 });
 
 app.listen(PORT, () => {
